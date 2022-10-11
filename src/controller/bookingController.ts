@@ -1,5 +1,6 @@
 import Booking from '../model/Booking';
 import User from '../model/User';
+import Site from '../model/Site';
 import { Request, Response } from 'express';
 
 const booking = async (req: Request, res: Response) => {
